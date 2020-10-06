@@ -562,7 +562,7 @@ img {
 
 .footer-two {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .footer-left {
@@ -619,7 +619,7 @@ img {
     text-transform: uppercase;
 
     color: #FFFFFF;
-    margin-bottom: 29px;
+    margin-bottom: 20px;
 }
 
 .footer-list {
@@ -645,11 +645,12 @@ img {
     fill: #fff;
 }
 
-  .footer-list-link:hover {
-      background-color: #2196F3;
+.footer-list-link:hover {
+    background-color: #2196F3;
 }
 
-  .footer-list-link:hover .social-list-svg {
+.footer-list-link:hover .social-list-svg {
     fill: #FFFFFF;
+}
 
 /* === END FOOTER === */
